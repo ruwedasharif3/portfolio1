@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css">
+    <link rel="stylesheet" href="https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>My portfolio</title>
+</head>
+<body>
+  <nav>
+    <i id="hamburger" class="fi fi-br-menu-burger"></i> <!-- Move it OUTSIDE -->
+    <div id="dropdown" class="dropdown">
+      <i id="cross" class="fi fi-br-cross"></i>
+      <ul class="dropdown-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#cv">CV</a></li>
+      </ul>
+    </div>
+  </nav>
+    <section id="about">
+      <div class="main-container">
+        <div class="content">
+          <h1>Hi I'm Ruweda,</h1>
+          <p>I'm an aspiring full-stack developer, currently enrolled in an intensive 12-week software development bootcamp where I'm building a strong foundation in both front-end and back-end technologies. My current focus includes mastering HTML, CSS, JavaScript, Node.js, and React, all essential tools for creating responsive, user-friendly web applications.
+            Beyond coding, I’m passionate about continuous learning and enjoy exploring the creative side of problem-solving through design and user experience. When I’m not at my computer, I like to spend my time reading , staying active through fitness, and creating visual art. These interests not only keep me balanced but also fuel my creativity and focus as a developer.</p>
+          <div class="social-links">
+            <a href="#"><i class="fi fi-brands-github"></i></a>
+            <a href="#"><i class="fi fi-brands-linkedin"></i></a>
+            <a href="#"><i class="fi fi-br-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <section id="cv">
+        <h2>My Resume</h2>
+        <div class="cv-container">
+          <img src="photos/images/cv.png" alt="My Resume" class="cv-image">
+        </div>
+      </section>
+      
+      <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <img src="photos/images/project1.png" alt="Project 1">
+            <h3>Project One</h3>
+            <p>This is one of my first projects, a calculator website that completes basic arithmetic, allowing users to perform operations like addition, subtraction, multiplication, and division through a simple and user-friendly interface.</p>
+          </div>
+      
+          <div class="project-card">
+            <img src="photos/images/project2.png" alt="Project 2">
+            <h3>Project Two</h3>
+            <p>This is another project I worked on, a basic rock-paper-scissors game against the computer, where the user can choose their move and the computer randomly selects one, with the game displaying the winner after each round.</p>
+          </div>
+      
+          <div class="project-card">
+            <img src="photos/images/project3.png" alt="Project 3">
+            <h3>Project Three</h3>
+            <p>This project is a useful encoder/decoder that helps turn messages into a secret code and then back again, making it easy to share information safely.</p>
+          </div>
+      
+          <div class="project-card">
+            <img src="photos/images/project4.png" alt="Project 4">
+            <h3>Project Four</h3>
+            <p>This is my rendition of a very basic social media app for pets, created with React, where users can share their posts and view their posts on their pin board.</p>
+          </div>
+        </div>
+      </section>
+      
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
